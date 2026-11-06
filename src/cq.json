@@ -1,0 +1,1068 @@
+[
+    {
+        "id": "CQ01a",
+        "kategori": "rantai",
+        "aturan_terkait": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r14"
+        ],
+        "fakta": [
+            [
+                "calon_a",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "calon_a",
+                "kuota_tersedia",
+                "true"
+            ],
+            [
+                "calon_a",
+                "data_booking_terisi",
+                "true"
+            ],
+            [
+                "calon_a",
+                "informed_consent_terisi",
+                "true"
+            ],
+            [
+                "calon_a",
+                "data_asuransi_terisi",
+                "true"
+            ],
+            [
+                "calon_a",
+                "pembayaran_terkonfirmasi",
+                "true"
+            ],
+            [
+                "calon_a",
+                "identitas_berlaku",
+                "true"
+            ],
+            [
+                "calon_a",
+                "surat_sehat_h_1",
+                "true"
+            ],
+            [
+                "calon_a",
+                "barang_kemasan_terlarang",
+                "false"
+            ],
+            [
+                "calon_a",
+                "wadah_guna_ulang",
+                "true"
+            ],
+            [
+                "calon_a",
+                "perlengkapan_sesuai_checklist",
+                "true"
+            ],
+            [
+                "calon_a",
+                "check_in_terverifikasi",
+                "true"
+            ],
+            [
+                "calon_a",
+                "safety_briefing_diikuti",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "calon_a",
+            "kelas": "pendaki_diizinkan_mendaki"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ01b",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r12"
+        ],
+        "fakta": [
+            [
+                "calon_a",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "calon_a",
+                "membawa_trash_bag",
+                "true"
+            ],
+            [
+                "calon_a",
+                "menyimpan_checklist_sampah",
+                "true"
+            ],
+            [
+                "calon_a",
+                "menyimpan_etiket",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "calon_a",
+            "kelas": "pendaki_kewajiban_pendakian_terpenuhi"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ02a",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r3"
+        ],
+        "fakta": [
+            [
+                "calon_b",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "calon_b",
+                "memiliki_etiket",
+                "etiket_calon_b"
+            ],
+            [
+                "etiket_calon_b",
+                "rdf_type",
+                "etiket"
+            ],
+            [
+                "calon_b",
+                "identitas_berlaku",
+                "true"
+            ],
+            [
+                "calon_b",
+                "surat_sehat_h_1",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "calon_b",
+            "kelas": "pendaki_check_in_lengkap"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r3"
+        ]
+    },
+    {
+        "id": "CQ02b",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r3",
+            "r5"
+        ],
+        "fakta": [
+            [
+                "calon_b",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "calon_b",
+                "memiliki_etiket",
+                "etiket_calon_b"
+            ],
+            [
+                "etiket_calon_b",
+                "rdf_type",
+                "etiket"
+            ],
+            [
+                "calon_b",
+                "identitas_berlaku",
+                "true"
+            ],
+            [
+                "calon_b",
+                "surat_sehat_h_1",
+                "false"
+            ],
+            [
+                "calon_b",
+                "barang_kemasan_terlarang",
+                "false"
+            ],
+            [
+                "calon_b",
+                "wadah_guna_ulang",
+                "true"
+            ],
+            [
+                "calon_b",
+                "perlengkapan_sesuai_checklist",
+                "true"
+            ],
+            [
+                "calon_b",
+                "check_in_terverifikasi",
+                "true"
+            ],
+            [
+                "calon_b",
+                "safety_briefing_diikuti",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "calon_b",
+            "kelas": "pendaki_diizinkan_mendaki"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r5"
+        ]
+    },
+    {
+        "id": "CQ03",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r6"
+        ],
+        "fakta": [
+            [
+                "kelompok_c",
+                "rdf_type",
+                "kelompok"
+            ],
+            [
+                "kelompok_c",
+                "beranggota",
+                "pendaki_c"
+            ],
+            [
+                "pendaki_c",
+                "rdf_type",
+                "pendaki"
+            ]
+        ],
+        "kueri": {
+            "individu": "kelompok_c",
+            "kelas": "kelompok_valid"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r6"
+        ]
+    },
+    {
+        "id": "CQ04",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r7"
+        ],
+        "fakta": [
+            [
+                "pendaki_d",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_d",
+                "rdf_type",
+                "pendaki_mancanegara"
+            ],
+            [
+                "pendaki_d",
+                "registrasi_langsung",
+                "true"
+            ],
+            [
+                "pendaki_d",
+                "persetujuan_to_diperoleh",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_d",
+            "kelas": "pendaki_mancanegara_registrasi_sesuai"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r7"
+        ]
+    },
+    {
+        "id": "CQ05",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r8"
+        ],
+        "fakta": [
+            [
+                "guide1",
+                "rdf_type",
+                "guide"
+            ],
+            [
+                "guide1",
+                "bekerja_pada",
+                "t_o1"
+            ],
+            [
+                "t_o1",
+                "rdf_type",
+                "trekking_organizer"
+            ],
+            [
+                "guide1",
+                "beban_kg",
+                "15"
+            ],
+            [
+                "pendaki1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki1",
+                "didampingi_oleh",
+                "guide1"
+            ],
+            [
+                "pendaki2",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki2",
+                "didampingi_oleh",
+                "guide1"
+            ],
+            [
+                "pendaki3",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki3",
+                "didampingi_oleh",
+                "guide1"
+            ],
+            [
+                "pendaki4",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki4",
+                "didampingi_oleh",
+                "guide1"
+            ],
+            [
+                "pendaki5",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki5",
+                "didampingi_oleh",
+                "guide1"
+            ]
+        ],
+        "kueri": {
+            "individu": "guide1",
+            "kelas": "rasio_guide_sesuai"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r8"
+        ]
+    },
+    {
+        "id": "CQ06a",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r9"
+        ],
+        "fakta": [
+            [
+                "pendaki6",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki6",
+                "memiliki_asuransi",
+                "asuransi_premium1"
+            ],
+            [
+                "asuransi_premium1",
+                "rdf_type",
+                "asuransi_premium"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki6",
+            "kelas": "asuransi_pendaki_sesuai"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ06b",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r9"
+        ],
+        "fakta": [
+            [
+                "guide2",
+                "rdf_type",
+                "guide"
+            ],
+            [
+                "guide2",
+                "memiliki_asuransi",
+                "asuransi_standar1"
+            ],
+            [
+                "asuransi_standar1",
+                "rdf_type",
+                "asuransi_standar"
+            ]
+        ],
+        "kueri": {
+            "individu": "guide2",
+            "kelas": "asuransi_pemandu_sesuai"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ07a",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r6"
+        ],
+        "fakta": [
+            [
+                "kelompok1",
+                "rdf_type",
+                "kelompok"
+            ],
+            [
+                "kelompok1",
+                "beranggota",
+                "pendaki8"
+            ],
+            [
+                "kelompok1",
+                "beranggota",
+                "pendaki9"
+            ],
+            [
+                "kelompok1",
+                "beranggota",
+                "pendaki_e"
+            ],
+            [
+                "pendaki8",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki9",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_e",
+                "rdf_type",
+                "pendaki"
+            ]
+        ],
+        "kueri": {
+            "individu": "kelompok1",
+            "kelas": "kelompok_valid"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ07b",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r10"
+        ],
+        "fakta": [
+            [
+                "pendaki_e",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_e",
+                "usia",
+                "16"
+            ],
+            [
+                "pendaki_e",
+                "didampingi_oleh",
+                "pendaki8"
+            ],
+            [
+                "pendaki_e",
+                "izin_orang_tua_diserahkan",
+                "true"
+            ],
+            [
+                "pendaki8",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki8",
+                "rdf_type",
+                "pendaki_berpengalaman"
+            ],
+            [
+                "pendaki8",
+                "usia",
+                "20"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_e",
+            "kelas": "pendaki_anak_memenuhi_syarat"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ08",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r10"
+        ],
+        "fakta": [
+            [
+                "pendaki10",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki10",
+                "usia",
+                "16"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki10",
+            "kelas": "pendaki_anak_memenuhi_syarat"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r10"
+        ]
+    },
+    {
+        "id": "CQ09a",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r17",
+            "r18"
+        ],
+        "fakta": [
+            [
+                "pelanggaran_p1",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p1",
+                "nomor_aturan",
+                "27"
+            ],
+            [
+                "pelanggaran_p1",
+                "dilakukan_oleh",
+                "pelaku1"
+            ],
+            [
+                "pelanggaran_p2",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p2",
+                "nomor_aturan",
+                "28"
+            ],
+            [
+                "pelanggaran_p2",
+                "dilakukan_oleh",
+                "pelaku1"
+            ],
+            [
+                "pelanggaran_p3",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p3",
+                "nomor_aturan",
+                "29"
+            ],
+            [
+                "pelanggaran_p3",
+                "dilakukan_oleh",
+                "pelaku1"
+            ]
+        ],
+        "kueri": {
+            "individu": "pelaku1",
+            "kelas": "pelaku_akumulasi_sedang"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ09b",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r17",
+            "r18",
+            "r19"
+        ],
+        "fakta": [
+            [
+                "pelanggaran_p1",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p1",
+                "nomor_aturan",
+                "27"
+            ],
+            [
+                "pelanggaran_p1",
+                "dilakukan_oleh",
+                "pelaku1"
+            ],
+            [
+                "pelanggaran_p2",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p2",
+                "nomor_aturan",
+                "28"
+            ],
+            [
+                "pelanggaran_p2",
+                "dilakukan_oleh",
+                "pelaku1"
+            ],
+            [
+                "pelanggaran_p3",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_p3",
+                "nomor_aturan",
+                "29"
+            ],
+            [
+                "pelanggaran_p3",
+                "dilakukan_oleh",
+                "pelaku1"
+            ]
+        ],
+        "kueri": {
+            "individu": "pelaku1",
+            "kelas": "pelaku_akumulasi_berat"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r19"
+        ]
+    },
+    {
+        "id": "CQ10",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r17",
+            "r19"
+        ],
+        "fakta": [
+            [
+                "pelanggaran_q1",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_q1",
+                "nomor_aturan",
+                "25"
+            ],
+            [
+                "pelanggaran_q1",
+                "dilakukan_oleh",
+                "pelaku2"
+            ],
+            [
+                "pelanggaran_q2",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_q2",
+                "nomor_aturan",
+                "26"
+            ],
+            [
+                "pelanggaran_q2",
+                "dilakukan_oleh",
+                "pelaku2"
+            ]
+        ],
+        "kueri": {
+            "individu": "pelaku2",
+            "kelas": "pelaku_akumulasi_berat"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ11a",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r20"
+        ],
+        "fakta": [
+            [
+                "pendaki_f",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_f",
+                "durasi_hari_overtime",
+                "4"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_f",
+            "kelas": "pendaki_overtime_auto_blacklist"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ11b",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r20"
+        ],
+        "fakta": [
+            [
+                "pendaki_f",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_f",
+                "durasi_hari_overtime",
+                "4"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_f",
+            "kelas": "pendaki_overtime_wajib_lapor_dan_denda"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ12a",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r20",
+            "r21"
+        ],
+        "fakta": [
+            [
+                "pendaki_g",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_g",
+                "durasi_hari_overtime",
+                "4"
+            ],
+            [
+                "pendaki_g",
+                "penyebab_overtime",
+                "sakit"
+            ],
+            [
+                "pendaki_g",
+                "melapor_ke_petugas",
+                "true"
+            ],
+            [
+                "pendaki_g",
+                "bukti_diserahkan",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_g",
+            "kelas": "pendaki_overtime_auto_blacklist"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r20"
+        ]
+    },
+    {
+        "id": "CQ12b",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r20",
+            "r21"
+        ],
+        "fakta": [
+            [
+                "pendaki_g",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_g",
+                "durasi_hari_overtime",
+                "4"
+            ],
+            [
+                "pendaki_g",
+                "penyebab_overtime",
+                "sakit"
+            ],
+            [
+                "pendaki_g",
+                "melapor_ke_petugas",
+                "true"
+            ],
+            [
+                "pendaki_g",
+                "bukti_diserahkan",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_g",
+            "kelas": "pendaki_overtime_wajib_lapor_dan_denda"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r20"
+        ]
+    },
+    {
+        "id": "CQ13",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r11"
+        ],
+        "fakta": [
+            [
+                "pendaki_h",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_h",
+                "jalur_sesuai_etiket",
+                "false"
+            ],
+            [
+                "pendaki_h",
+                "pemberitahuan_bersyarat_dipenuhi",
+                "false"
+            ],
+            [
+                "pendaki_h",
+                "pendakian_khusus",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_h",
+            "kelas": "pendaki_jalur_sesuai"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r11"
+        ]
+    },
+    {
+        "id": "CQ14",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r13"
+        ],
+        "fakta": [
+            [
+                "pendaki_i",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_i",
+                "check_out_dilakukan",
+                "true"
+            ],
+            [
+                "pendaki_i",
+                "durasi_sesuai_tiket",
+                "true"
+            ],
+            [
+                "pendaki_i",
+                "pack_out_dilakukan",
+                "true"
+            ],
+            [
+                "pendaki_i",
+                "sampah_pilahan_diserahkan",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_i",
+            "kelas": "pendaki_check_out_lengkap"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r13"
+        ]
+    },
+    {
+        "id": "CQ15",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r16"
+        ],
+        "fakta": [
+            [
+                "penyedia1",
+                "rdf_type",
+                "penyedia_makanan_minuman"
+            ],
+            [
+                "penyedia1",
+                "persen_produk_lokal",
+                "10"
+            ]
+        ],
+        "kueri": {
+            "individu": "penyedia1",
+            "kelas": "penyedia_memenuhi_ambang"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r16"
+        ]
+    },
+    {
+        "id": "CQ16a",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r15"
+        ],
+        "fakta": [
+            [
+                "aktivitas_memancing1",
+                "rdf_type",
+                "aktivitas_pada_satwa"
+            ],
+            [
+                "aktivitas_memancing1",
+                "memancing_di_tepi_danau_segara_anak",
+                "true"
+            ],
+            [
+                "aktivitas_memancing1",
+                "tindakan_satwa_umum",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "aktivitas_memancing1",
+            "kelas": "aktivitas_pada_satwa_terlarang"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r15"
+        ]
+    },
+    {
+        "id": "CQ16b",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r15"
+        ],
+        "fakta": [
+            [
+                "aktivitas_memancing1",
+                "rdf_type",
+                "aktivitas_pada_satwa"
+            ],
+            [
+                "aktivitas_memancing1",
+                "memancing_di_tepi_danau_segara_anak",
+                "true"
+            ],
+            [
+                "aktivitas_memancing1",
+                "tindakan_satwa_umum",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "aktivitas_memancing1",
+            "kelas": "aktivitas_memancing_diperbolehkan"
+        },
+        "harapan": true
+    },
+    {
+        "id": "CQ17",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r22"
+        ],
+        "fakta": [
+            [
+                "pendaki_j",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_j",
+                "dibatalkan_mendaki_karena",
+                "penutupan_insidental1"
+            ],
+            [
+                "penutupan_insidental1",
+                "rdf_type",
+                "penutupan_insidental"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_j",
+            "kelas": "pendaki_mendapat_refund"
+        },
+        "harapan": true
+    }
+]
