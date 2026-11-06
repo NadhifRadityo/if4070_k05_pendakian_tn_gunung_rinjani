@@ -3,7 +3,7 @@
 
 % Calon pendaki
 triple(calon_a, rdf_type, pendaki).
-triple(calon_a, memiliki_etiket, etiket_calon_a).
+triple(calon_a, memiliki_e_tiket, e_tiket_calon_a).
 triple(calon_a, barang_kemasan_terlarang, false).
 triple(calon_a, check_in_terverifikasi, true).
 triple(calon_a, identitas_berlaku, true).
@@ -22,8 +22,8 @@ triple(calon_b, surat_sehat_h_1, false).
 triple(calon_b, wadah_guna_ulang, true).
 
 % E-Tiket
-triple(etiket_calon_a, rdf_type, etiket).
-triple(etiket_calon_b, rdf_type, etiket).
+triple(e_tiket_calon_a, rdf_type, e_tiket).
+triple(e_tiket_calon_b, rdf_type, e_tiket).
 
 % Guide
 triple(guide1, rdf_type, guide).
@@ -99,7 +99,7 @@ triple(pendaki_g, rdf_type, pendaki).
 triple(pendaki_g, durasi_hari_overtime, 4).
 
 triple(pendaki_h, rdf_type, pendaki).
-triple(pendaki_h, jalur_sesuai_etiket, false).
+triple(pendaki_h, jalur_sesuai_e_tiket, false).
 triple(pendaki_h, pemberitahuan_bersyarat_dipenuhi, false).
 triple(pendaki_h, pendakian_khusus, false).
 

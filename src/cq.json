@@ -107,7 +107,7 @@
             ],
             [
                 "calon_a",
-                "menyimpan_etiket",
+                "menyimpan_e_tiket",
                 "true"
             ]
         ],
@@ -131,13 +131,13 @@
             ],
             [
                 "calon_b",
-                "memiliki_etiket",
-                "etiket_calon_b"
+                "memiliki_e_tiket",
+                "e_tiket_calon_b"
             ],
             [
-                "etiket_calon_b",
+                "e_tiket_calon_b",
                 "rdf_type",
-                "etiket"
+                "e_tiket"
             ],
             [
                 "calon_b",
@@ -174,13 +174,13 @@
             ],
             [
                 "calon_b",
-                "memiliki_etiket",
-                "etiket_calon_b"
+                "memiliki_e_tiket",
+                "e_tiket_calon_b"
             ],
             [
-                "etiket_calon_b",
+                "e_tiket_calon_b",
                 "rdf_type",
-                "etiket"
+                "e_tiket"
             ],
             [
                 "calon_b",
@@ -283,7 +283,7 @@
             ],
             [
                 "pendaki_d",
-                "persetujuan_to_diperoleh",
+                "persetujuan_t_o_diperoleh",
                 "false"
             ]
         ],
@@ -883,7 +883,7 @@
             ],
             [
                 "pendaki_h",
-                "jalur_sesuai_etiket",
+                "jalur_sesuai_e_tiket",
                 "false"
             ],
             [
