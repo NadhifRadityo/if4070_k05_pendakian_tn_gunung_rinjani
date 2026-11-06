@@ -3,11 +3,11 @@
         "id": "CQ01a",
         "kategori": "rantai",
         "aturan_terkait": [
-            "r1",
-            "r2",
-            "r3",
-            "r4",
-            "r5",
+            "r01",
+            "r02",
+            "r03",
+            "r04",
+            "r05",
             "r14"
         ],
         "fakta": [
@@ -121,7 +121,7 @@
         "id": "CQ02a",
         "kategori": "umum",
         "aturan_terkait": [
-            "r3"
+            "r03"
         ],
         "fakta": [
             [
@@ -156,15 +156,15 @@
         },
         "harapan": false,
         "why_not_wajib_menyebut": [
-            "r3"
+            "r03"
         ]
     },
     {
         "id": "CQ02b",
         "kategori": "umum",
         "aturan_terkait": [
-            "r3",
-            "r5"
+            "r03",
+            "r05"
         ],
         "fakta": [
             [
@@ -224,14 +224,14 @@
         },
         "harapan": false,
         "why_not_wajib_menyebut": [
-            "r5"
+            "r05"
         ]
     },
     {
         "id": "CQ03",
         "kategori": "umum",
         "aturan_terkait": [
-            "r6"
+            "r06"
         ],
         "fakta": [
             [
@@ -256,14 +256,14 @@
         },
         "harapan": false,
         "why_not_wajib_menyebut": [
-            "r6"
+            "r06"
         ]
     },
     {
         "id": "CQ04",
         "kategori": "umum",
         "aturan_terkait": [
-            "r7"
+            "r07"
         ],
         "fakta": [
             [
@@ -293,14 +293,14 @@
         },
         "harapan": false,
         "why_not_wajib_menyebut": [
-            "r7"
+            "r07"
         ]
     },
     {
         "id": "CQ05",
         "kategori": "batas",
         "aturan_terkait": [
-            "r8"
+            "r08"
         ],
         "fakta": [
             [
@@ -380,14 +380,14 @@
         },
         "harapan": false,
         "why_not_wajib_menyebut": [
-            "r8"
+            "r08"
         ]
     },
     {
         "id": "CQ06a",
         "kategori": "umum",
         "aturan_terkait": [
-            "r9"
+            "r09"
         ],
         "fakta": [
             [
@@ -416,7 +416,7 @@
         "id": "CQ06b",
         "kategori": "umum",
         "aturan_terkait": [
-            "r9"
+            "r09"
         ],
         "fakta": [
             [
@@ -445,7 +445,7 @@
         "id": "CQ07a",
         "kategori": "umum",
         "aturan_terkait": [
-            "r6"
+            "r06"
         ],
         "fakta": [
             [
