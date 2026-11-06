@@ -1,0 +1,528 @@
+[
+    {
+        "id": "T01",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r10"
+        ],
+        "fakta": [
+            [
+                "pendaki_di_atas_batas_usia1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_di_atas_batas_usia1",
+                "usia",
+                "17"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_di_atas_batas_usia1",
+            "kelas": "pendaki_anak"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r10"
+        ]
+    },
+    {
+        "id": "T02",
+        "kategori": "info_tak_lengkap",
+        "aturan_terkait": [
+            "r03"
+        ],
+        "fakta": [
+            [
+                "pendaki_tidak_lengkap1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_tidak_lengkap1",
+                "memiliki_e_tiket",
+                "e_tiket_x"
+            ],
+            [
+                "e_tiket_x",
+                "rdf_type",
+                "e_tiket"
+            ],
+            [
+                "pendaki_tidak_lengkap1",
+                "identitas_berlaku",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_tidak_lengkap1",
+            "kelas": "pendaki_check_in_lengkap"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r03"
+        ]
+    },
+    {
+        "id": "T03",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r20",
+            "r21"
+        ],
+        "fakta": [
+            [
+                "pendaki_overtime1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_overtime1",
+                "durasi_hari_overtime",
+                "2"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_overtime1",
+            "kelas": "pendaki_overtime_wajib_lapor_dan_denda"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T04",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r08"
+        ],
+        "fakta": [
+            [
+                "guide_lama1",
+                "rdf_type",
+                "guide"
+            ],
+            [
+                "guide_lama1",
+                "tanggal_pendakian",
+                "date(2025,12,31)"
+            ]
+        ],
+        "kueri": {
+            "individu": "guide_lama1",
+            "kelas": "rasio_guide_sesuai"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T05",
+        "kategori": "rantai",
+        "aturan_terkait": [
+            "r01",
+            "r02",
+            "r03"
+        ],
+        "fakta": [
+            [
+                "pendaki_check_in1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_check_in1",
+                "kuota_tersedia",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "data_booking_terisi",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "informed_consent_terisi",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "data_asuransi_terisi",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "pembayaran_terkonfirmasi",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "identitas_berlaku",
+                "true"
+            ],
+            [
+                "pendaki_check_in1",
+                "surat_sehat_h_min_1",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_check_in1",
+            "kelas": "pendaki_check_in_lengkap"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T06",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r16"
+        ],
+        "fakta": [
+            [
+                "penyedia_di_bawah_batas",
+                "rdf_type",
+                "penyedia_makanan_minuman"
+            ],
+            [
+                "penyedia_di_bawah_batas",
+                "persen_produk_lokal",
+                "24"
+            ]
+        ],
+        "kueri": {
+            "individu": "penyedia_di_bawah_batas",
+            "kelas": "penyedia_memenuhi_ambang"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r16"
+        ]
+    },
+    {
+        "id": "T07",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r07"
+        ],
+        "fakta": [
+            [
+                "wisatawan_mancanegara1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "wisatawan_mancanegara1",
+                "rdf_type",
+                "pendaki_mancanegara"
+            ]
+        ],
+        "kueri": {
+            "individu": "wisatawan_mancanegara1",
+            "kelas": "pendaki_mancanegara_ber_t_o"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r07"
+        ]
+    },
+    {
+        "id": "T08",
+        "kategori": "info_tak_lengkap",
+        "aturan_terkait": [
+            "r11"
+        ],
+        "fakta": [
+            [
+                "pendaki_khusus1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_khusus1",
+                "pendakian_khusus",
+                "true"
+            ],
+            [
+                "pendaki_khusus1",
+                "pemberitahuan_bersyarat_dipenuhi",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_khusus1",
+            "kelas": "pendaki_jalur_sesuai"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T09",
+        "kategori": "individu_baru",
+        "aturan_terkait": [
+            "r22"
+        ],
+        "fakta": [
+            [
+                "pendaki_baru1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_baru1",
+                "dibatalkan_mendaki_karena",
+                "gangguan_server_09"
+            ],
+            [
+                "gangguan_server_09",
+                "rdf_type",
+                "gangguan_sistem"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_baru1",
+            "kelas": "pendaki_mendapat_refund"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T10",
+        "kategori": "rantai",
+        "aturan_terkait": [
+            "r17",
+            "r18",
+            "r19"
+        ],
+        "fakta": [
+            [
+                "pelanggaran_x1",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_x1",
+                "nomor_aturan",
+                "27"
+            ],
+            [
+                "pelanggaran_x1",
+                "dilakukan_oleh",
+                "pelaku_pelanggaran1"
+            ],
+            [
+                "pelanggaran_x2",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_x2",
+                "nomor_aturan",
+                "28"
+            ],
+            [
+                "pelanggaran_x2",
+                "dilakukan_oleh",
+                "pelaku_pelanggaran1"
+            ],
+            [
+                "pelanggaran_x3",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_x3",
+                "nomor_aturan",
+                "29"
+            ],
+            [
+                "pelanggaran_x3",
+                "dilakukan_oleh",
+                "pelaku_pelanggaran1"
+            ],
+            [
+                "pelanggaran_x4",
+                "rdf_type",
+                "pelanggaran"
+            ],
+            [
+                "pelanggaran_x4",
+                "nomor_aturan",
+                "25"
+            ],
+            [
+                "pelanggaran_x4",
+                "dilakukan_oleh",
+                "pelaku_pelanggaran1"
+            ]
+        ],
+        "kueri": {
+            "individu": "pelaku_pelanggaran1",
+            "kelas": "pelaku_akumulasi_sedang"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r18"
+        ]
+    },
+    {
+        "id": "T11",
+        "kategori": "pengecualian",
+        "aturan_terkait": [
+            "r15"
+        ],
+        "fakta": [
+            [
+                "aktivitas_orang_memancing1",
+                "rdf_type",
+                "aktivitas_pada_satwa"
+            ],
+            [
+                "aktivitas_orang_memancing1",
+                "memancing_di_tepi_danau_segara_anak",
+                "true"
+            ],
+            [
+                "aktivitas_orang_memancing1",
+                "tindakan_satwa_umum",
+                "false"
+            ]
+        ],
+        "kueri": {
+            "individu": "aktivitas_orang_memancing1",
+            "kelas": "aktivitas_memancing_diperbolehkan"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T12",
+        "kategori": "umum",
+        "aturan_terkait": [
+            "r13"
+        ],
+        "fakta": [
+            [
+                "pendaki_check_out1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_check_out1",
+                "pack_out_dilakukan",
+                "true"
+            ],
+            [
+                "pendaki_check_out1",
+                "check_out_dilakukan",
+                "true"
+            ],
+            [
+                "pendaki_check_out1",
+                "durasi_sesuai_tiket",
+                "true"
+            ],
+            [
+                "pendaki_check_out1",
+                "sampah_pilahan_diserahkan",
+                "true"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_check_out1",
+            "kelas": "pendaki_check_out_lengkap"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T13",
+        "kategori": "individu_baru",
+        "aturan_terkait": [
+            "r06"
+        ],
+        "fakta": [
+            [
+                "pendaki_baru2",
+                "rdf_type",
+                "pendaki_nusantara"
+            ],
+            [
+                "pendaki_baru2",
+                "didampingi_oleh",
+                "pemandu_baru1"
+            ],
+            [
+                "pemandu_baru1",
+                "rdf_type",
+                "guide"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_baru2",
+            "kelas": "pendaki_nusantara_terdampingi"
+        },
+        "harapan": true
+    },
+    {
+        "id": "T14",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r06"
+        ],
+        "fakta": [
+            [
+                "kelompok_anggota_di_bawah_batas1",
+                "rdf_type",
+                "kelompok"
+            ],
+            [
+                "kelompok_anggota_di_bawah_batas1",
+                "beranggota",
+                "pendaki_k1"
+            ],
+            [
+                "pendaki_k1",
+                "rdf_type",
+                "pendaki"
+            ]
+        ],
+        "kueri": {
+            "individu": "kelompok_anggota_di_bawah_batas1",
+            "kelas": "kelompok_valid"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r06"
+        ]
+    },
+    {
+        "id": "T15",
+        "kategori": "batas",
+        "aturan_terkait": [
+            "r09"
+        ],
+        "fakta": [
+            [
+                "pendaki_dengan_asuransi1",
+                "rdf_type",
+                "pendaki"
+            ],
+            [
+                "pendaki_dengan_asuransi1",
+                "memiliki_asuransi",
+                "asuransi_std1"
+            ],
+            [
+                "asuransi_std1",
+                "rdf_type",
+                "asuransi_standar"
+            ],
+            [
+                "pendaki_dengan_asuransi1",
+                "tanggal_pendakian",
+                "date(2026,1,1)"
+            ]
+        ],
+        "kueri": {
+            "individu": "pendaki_dengan_asuransi1",
+            "kelas": "asuransi_pendaki_sesuai"
+        },
+        "harapan": false,
+        "why_not_wajib_menyebut": [
+            "r09"
+        ]
+    }
+]
