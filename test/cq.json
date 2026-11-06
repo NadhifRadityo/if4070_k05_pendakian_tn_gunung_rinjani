@@ -48,7 +48,7 @@
             ],
             [
                 "calon_a",
-                "surat_sehat_h_1",
+                "surat_sehat_h_min_1",
                 "true"
             ],
             [
@@ -146,7 +146,7 @@
             ],
             [
                 "calon_b",
-                "surat_sehat_h_1",
+                "surat_sehat_h_min_1",
                 "false"
             ]
         ],
@@ -189,7 +189,7 @@
             ],
             [
                 "calon_b",
-                "surat_sehat_h_1",
+                "surat_sehat_h_min_1",
                 "false"
             ],
             [

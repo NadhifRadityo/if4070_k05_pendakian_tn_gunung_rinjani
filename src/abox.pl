@@ -9,7 +9,7 @@ triple(calon_a, check_in_terverifikasi, true).
 triple(calon_a, identitas_berlaku, true).
 triple(calon_a, perlengkapan_sesuai_checklist, true).
 triple(calon_a, safety_briefing_diikuti, true).
-triple(calon_a, surat_sehat_h_1, true).
+triple(calon_a, surat_sehat_h_min_1, true).
 triple(calon_a, wadah_guna_ulang, true).
 
 triple(calon_b, rdf_type, pendaki).
