@@ -1,3 +1,5 @@
+:- consult('aturan.pl').
+
 :- dynamic triple/3.
 :- multifile aturan/3.
 :- dynamic aturan/3.
