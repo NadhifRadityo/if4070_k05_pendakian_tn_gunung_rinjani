@@ -20,6 +20,7 @@ triple(calon_a, surat_sehat_h_min_1, true).
 triple(calon_a, wadah_guna_ulang, true).
 
 triple(calon_b, rdf_type, pendaki).
+triple(calon_b, memiliki_e_tiket, e_tiket_calon_b).
 triple(calon_b, barang_kemasan_terlarang, false).
 triple(calon_b, check_in_terverifikasi, true).
 triple(calon_b, identitas_berlaku, true).
@@ -35,6 +36,8 @@ triple(e_tiket_calon_b, rdf_type, e_tiket).
 triple(guide1, rdf_type, guide).
 triple(guide1, bekerja_pada, t_o1).
 triple(guide1, beban_kg, 15).
+triple(guide1, tanggal_pendakian, date(2026,2,15)).
+
 
 triple(guide2, rdf_type, guide).
 triple(guide2, memiliki_asuransi, asuransi_standar1).
@@ -92,6 +95,8 @@ triple(pendaki_c, rdf_type, pendaki).
 
 triple(pendaki_d, rdf_type, pendaki).
 triple(pendaki_d, rdf_type, pendaki_mancanegara).
+triple(pendaki_d, registrasi_langsung, true).
+triple(pendaki_d, persetujuan_t_o_diperoleh, false).
 
 triple(pendaki_e, rdf_type, pendaki).
 triple(pendaki_e, didampingi_oleh, pendaki8).
@@ -103,6 +108,9 @@ triple(pendaki_f, durasi_hari_overtime, 4).
 
 triple(pendaki_g, rdf_type, pendaki).
 triple(pendaki_g, durasi_hari_overtime, 4).
+triple(pendaki_g, penyebab_overtime, sakit).
+triple(pendaki_g, melapor_ke_petugas, true).
+triple(pendaki_g, bukti_diserahkan, true).
 
 triple(pendaki_h, rdf_type, pendaki).
 triple(pendaki_h, jalur_sesuai_e_tiket, false).
@@ -138,6 +146,12 @@ triple(pelanggaran4, rdf_type, pelanggaran).
 triple(pelanggaran4, nomor_aturan, 25).
 triple(pelanggaran5, rdf_type, pelanggaran).
 triple(pelanggaran5, nomor_aturan, 26).
+
+triple(pelanggaran1, dilakukan_oleh, pelaku1).
+triple(pelanggaran2, dilakukan_oleh, pelaku1).
+triple(pelanggaran3, dilakukan_oleh, pelaku1).
+triple(pelanggaran4, dilakukan_oleh, pelaku2).
+triple(pelanggaran5, dilakukan_oleh, pelaku2).
 
 % Penutupan Insidental (refund)
 triple(penutupan_insidental1, rdf_type, penutupan_insidental).
