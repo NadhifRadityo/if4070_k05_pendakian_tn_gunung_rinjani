@@ -324,3 +324,22 @@ jumlah_sedang_efektif(Pelaku, N) :-
     jumlah_kejadian(Pelaku, ringan, Ringan),
     N is Sedang + Ringan // 3.
 
+disjoint(a13, pendaki_nusantara, pendaki_mancanegara).
+disjoint(a19, asuransi_standar, asuransi_premium).
+disjoint(a32, pelanggaran_ringan, pelanggaran_sedang).
+disjoint(a33, pelanggaran_ringan, pelanggaran_berat).
+disjoint(a34, pelanggaran_sedang, pelanggaran_berat).
+
+inkonsisten(Individu, Id, KelasA, KelasB) :-
+    disjoint(Id, KelasA, KelasB),
+    individu_abox(Individu),
+    classify(Individu, KelasA),
+    classify(Individu, KelasB).
+individu_inkonsisten(Individu) :-
+    inkonsisten(Individu, _, _, _).
+individu_abox(Individu) :-
+    nonvar(Individu), !.
+individu_abox(Individu) :-
+    setof(S, P^O^triple(S, P, O), Semua),
+    member(Individu, Semua).
+
