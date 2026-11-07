@@ -18,7 +18,7 @@ triple(calon_b, check_in_terverifikasi, true).
 triple(calon_b, identitas_berlaku, true).
 triple(calon_b, perlengkapan_sesuai_checklist, true).
 triple(calon_b, safety_briefing_diikuti, true).
-triple(calon_b, surat_sehat_h_1, false).
+triple(calon_b, surat_sehat_h_min_1, false).
 triple(calon_b, wadah_guna_ulang, true).
 
 % E-Tiket
