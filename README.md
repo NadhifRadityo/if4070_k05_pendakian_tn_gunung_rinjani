@@ -66,4 +66,4 @@ true.
 
 ## Video Penjelasan
 
-Link Google Drive: 
+Link Google Drive: https://drive.google.com/file/d/1GGHRISpZwvPuUn6HPYpFqouQrXIZ_obu/view?usp=sharing
